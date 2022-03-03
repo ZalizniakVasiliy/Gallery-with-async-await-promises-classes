@@ -1,0 +1,35 @@
+.albums-page {
+  position: relative;
+}
+
+.albums-header {
+  font-size: 32px;
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+}
+
+#all-albums {
+  margin-top: 24px;
+  padding-left: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.images {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigImage {
+  display: block;
+  margin-top: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
