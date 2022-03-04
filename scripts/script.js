@@ -38,7 +38,7 @@ class Albums {
         for (const elem of allPhotosFromStorage) {
           const img = document.createElement(`img`);
 
-          if (e.target.id == elem.albumId) {
+          if (Number(e.target.id) === elem.albumId) {
             img.src = elem.thumbnailUrl;
             imagesBlock.append(img);
             document.body.append(imagesBlock);
